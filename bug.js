@@ -1,0 +1,1 @@
+function foo(a,b){return a+b;}console.log(foo(2,3));//expected 5console.log(foo(2,"3"));//expected 23console.log(foo("2",3));//expected 23console.log(foo("2","3"));//expected 23
